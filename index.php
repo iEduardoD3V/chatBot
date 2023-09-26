@@ -6,7 +6,7 @@
   <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="../chatBot//main.js"></script>
   <link rel="icon" type="image/x-icon" href="../chatBot///img//robo.png">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
 
   <title>ChatBot</title>
 

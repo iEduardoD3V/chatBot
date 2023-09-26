@@ -28,7 +28,7 @@ h1 {
   width: 800px;
   height: 500px;
   background-color: rgba(255, 255, 255, 0.069);
-  backdrop-filter: blur(5rem);
+  backdrop-filter: blur(20px);
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
@@ -48,6 +48,9 @@ input {
   font-size: 1.5rem;
   border: none;
   border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: 600;
 }
 button {
   position: relative;
@@ -58,7 +61,7 @@ button {
   margin: 0 auto;
   color: rgb(0, 0, 0);
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 900;
   border-radius: 2rem;
   border: none;
   cursor: pointer;
