@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Slab", serif;
+}
+body {
+  background-image: url("../chatBot/img/1311487.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 5rem;
+  margin-top: 3rem;
+  text-shadow: 1rem 0rem 1rem black;
+}
+.resposta {
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 5rem;
+  width: 800px;
+  height: 500px;
+}
+.area {
+  width: 800px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.069);
+  backdrop-filter: blur(5rem);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5rem;
+  border-radius: 5rem;
+  box-shadow: 1rem 1rem 2rem 1rem rgb(23, 23, 23);
+}
+input {
+  position: relative;
+  bottom: 8rem;
+  display: flex;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  width: 15rem;
+  height: 2.2rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 1rem;
+}
+button {
+  position: relative;
+  bottom: 8rem;
+  width: 10rem;
+  height: 2rem;
+  display: block;
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0.7rem 0.5rem 1rem 0rem rgb(23, 23, 23);
+  background-color: rgb(255, 203, 30);
+}
+button:hover {
+  transition: 0.7s;
+  background-color: rgb(193, 125, 0);
+}
+img {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 9rem;
+}
