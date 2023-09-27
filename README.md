@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <img src="/img/">
 =======
 ![Alt text](img/telainicial.png)
