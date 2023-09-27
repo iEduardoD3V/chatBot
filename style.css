@@ -14,11 +14,11 @@ h1 {
   text-align: center;
   color: rgb(255, 255, 255);
   font-size: 5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   text-shadow: 1rem 0rem 1rem black;
 }
 .resposta {
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
   padding-top: 5rem;
   width: 800px;
@@ -31,13 +31,12 @@ h1 {
   backdrop-filter: blur(10px);
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5rem;
   border-radius: 5rem;
   box-shadow: 1rem 1rem 2rem 1rem rgb(23, 23, 23);
 }
 input {
   position: relative;
-  bottom: 8rem;
+  top: 1rem;
   display: flex;
   text-align: center;
   display: block;
@@ -54,7 +53,7 @@ input {
 }
 button {
   position: relative;
-  bottom: 8rem;
+  top: 1rem;
   width: 10rem;
   height: 2rem;
   display: block;
@@ -76,6 +75,6 @@ img {
   display: block;
   position: relative;
   margin: 0 auto;
-  margin-top: 10px;
+  top: 3rem;
   width: 9rem;
 }

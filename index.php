@@ -6,11 +6,7 @@
   <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
   <script src="../chatBot//main.js"></script>
   <link rel="icon" type="image/x-icon" href="../chatBot///img//robo.png">
-<<<<<<< HEAD
   <link rel="stylesheet" href="../chatBot/style.css">
-=======
-  <link rel="stylesheet" href="style.css">
->>>>>>> a670e9cd131f6c0f53e03020525added9080a263
 
   <title>ChatBot</title>
 
@@ -20,7 +16,7 @@
   <h1>ChatBot</h1>
   <div id="chat" class="area">
     <div id="chat-area">
-      <h1 id="resposta" class="resposta">Olá eu sou ChatBot Hero, para iniciar a ajuda digite: Iniciar  <img src="../chatBot//img//roboInicial.png" alt="" srcset=""></h1>
+      <h1 id="resposta" class="resposta">Olá eu sou ChatBot Hero, <br>para dúvidas do jogo digite: Jogo, para dúvidas de recarga digite: Donate  <img src="../chatBot//img//roboInicial.png" alt="" srcset=""></h1>
      
         <input type="text" id="pergunta" placeholder="Digite sua pergunta...">
         <button id="perguntar">Enviar</button>
