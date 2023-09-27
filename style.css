@@ -27,13 +27,8 @@ h1 {
 .area {
   width: 800px;
   height: 500px;
-<<<<<<< HEAD
   background-color: rgba(255, 255, 255, 0.093);
   backdrop-filter: blur(10px);
-=======
-  background-color: rgba(255, 255, 255, 0.069);
-  backdrop-filter: blur(20px);
->>>>>>> a670e9cd131f6c0f53e03020525added9080a263
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
