@@ -27,8 +27,13 @@ h1 {
 .area {
   width: 800px;
   height: 500px;
+<<<<<<< HEAD
   background-color: rgba(255, 255, 255, 0.093);
   backdrop-filter: blur(10px);
+=======
+  background-color: rgba(255, 255, 255, 0.069);
+  backdrop-filter: blur(20px);
+>>>>>>> a670e9cd131f6c0f53e03020525added9080a263
   margin-left: auto;
   margin-right: auto;
   margin-top: 5rem;
@@ -48,6 +53,9 @@ input {
   font-size: 1.5rem;
   border: none;
   border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-weight: 600;
 }
 button {
   position: relative;
@@ -58,7 +66,7 @@ button {
   margin: 0 auto;
   color: rgb(0, 0, 0);
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 900;
   border-radius: 2rem;
   border: none;
   cursor: pointer;
