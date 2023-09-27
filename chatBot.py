@@ -49,8 +49,8 @@ duvidas = {
 }
 recarga = {
     "Recarga": {"donate"},   
-    "op5": "A recarga pode ser feita por dentro da propria loja do a (Steam).",
-    "op6": "Os meios de pagamentos são Pix, Boleto e Cartão de Credito e Debito.",
+    "op5": "A recarga pode ser feita por dentro da propria loja do jogo a (Steam), ou pelo no site www.Hero2044.com.br.",
+    "op6": "Os meios de pagamentos são Pix, Boleto e Cartão de Credito e Debito, ou proprio saldo da loja (Steam).",
     "op7": "Você vai recerber um E-mail com o seu codigo de recarga, após isso basta logar no jogo ir ate a aba resgatar codigo e colar seu codigo lá.",
 }
 
@@ -58,17 +58,17 @@ recarga = {
 def Duvidas(token):
     opcao = {}
     if token in duvidas["Menu"]:
-        opcao = """op1: Como inicializar jogo?
-                   op2: Sobre Configurações?
-                   op3: Problemas de Conexão?
-                   op4: Problemas com FPS?"""
+        opcao = """ㅤㅤop1: Como inicializar jogo?ㅤㅤㅤㅤ
+                    ㅤop2: Sobre Configurações?ㅤㅤㅤㅤ
+                   ㅤop3: Problemas de Conexão?ㅤㅤㅤㅤ
+                   op4: Problemas com FPS?ㅤㅤㅤ"""
         return opcao
     
 def Recarga(token):
     opcaoRecarga = {}
     if token in recarga["Recarga"]:
-        opcaoRecarga = """op5: Como Fazer Recarga?
-                        op6: Quais os meios de pagamento?
+        opcaoRecarga = """ㅤㅤop5: Como Fazer Recarga?ㅤㅤㅤㅤ
+                        op6: Quais os meios de pagamento?ㅤ
                         op7: Como resgatar o codigo?"""
         return opcaoRecarga
 
